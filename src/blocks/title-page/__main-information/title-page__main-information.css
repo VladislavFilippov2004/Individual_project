@@ -1,0 +1,6 @@
+.title-page__main-information {
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto;
+    justify-content: center;
+}

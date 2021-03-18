@@ -1,0 +1,32 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+@import url(./vendor/normalize.css);
+@import url(./blocks/root/root.css);
+@import url(./blocks/menu/menu.css);
+@import url(./blocks/menu/__link/menu__link.css);
+
+@import url(./blocks/title-page/__title/title-page__title.css);
+@import url(./blocks/title-page/__main-information/title-page__main-information.css);
+@import url(./blocks/title-page/__text/title-page__text.css);
+
+@import url(./blocks/actualJobs/__main-information/actualJobs__main-information.css);
+@import url(./blocks/actualJobs/__list/actualJobs__list.css);
+@import url(./blocks/actualJobs/__list/_item-link/actualJobs__list_item-link.css);
+@import url(./blocks/actualJobs/__list/_item-button/actualJobs__list_item-button.css);
+
+@import url(./blocks/profession-structure/profession-structure.css);
+@import url(./blocks/profession-structure/__text/profession-structure__text.css);
+@import url(./blocks/profession-structure/__title/profession-structure__title.css);
+@import url(./blocks/profession-structure/__duties/profession-structure__duties.css);
+
